@@ -1,9 +1,9 @@
 <?php
 
-namespace Laravel\Conversation\Repositories\Conversation;
+namespace Aistglobal\Conversation\Repositories\Conversation;
 
 use Illuminate\Pagination\LengthAwarePaginator;
-use Laravel\Conversation\Models\Conversation;
+use Aistglobal\Conversation\Models\Conversation;
 
 interface ConversationRepository
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Conversation\Exceptions\API;
+namespace Aistglobal\Conversation\Exceptions\API;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;

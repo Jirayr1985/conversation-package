@@ -1,17 +1,17 @@
 <?php
 
-namespace Laravel\Conversation\Http\Controllers\Message;
+namespace Aistglobal\Conversation\Http\Controllers\Message;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\Carbon;
-use Laravel\Conversation\Events\Message\MessageCreatedEvent;
-use Laravel\Conversation\Http\Requests\Message\CreateMessageRequest;
-use Laravel\Conversation\Http\Resources\MessageResource;
-use Laravel\Conversation\Models\Conversation;
-use Laravel\Conversation\Models\Message;
-use Laravel\Conversation\Repositories\Conversation\ConversationRepository;
-use Laravel\Conversation\Repositories\Message\MessageRepository;
+use Aistglobal\Conversation\Events\Message\MessageCreatedEvent;
+use Aistglobal\Conversation\Http\Requests\Message\CreateMessageRequest;
+use Aistglobal\Conversation\Http\Resources\MessageResource;
+use Aistglobal\Conversation\Models\Conversation;
+use Aistglobal\Conversation\Models\Message;
+use Aistglobal\Conversation\Repositories\Conversation\ConversationRepository;
+use Aistglobal\Conversation\Repositories\Message\MessageRepository;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 
 class CreateMessageController extends Controller

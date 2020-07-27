@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Laravel\Conversation\Http\Controllers\Conversation\RetrieveUserConversationsController;
-use Laravel\Conversation\Http\Controllers\Message\CreateMessageController;
-use Laravel\Conversation\Http\Controllers\Message\RetrieveMessagesByConversationIDController;
+use Aistglobal\Conversation\Http\Controllers\Conversation\RetrieveUserConversationsController;
+use Aistglobal\Conversation\Http\Controllers\Message\CreateMessageController;
+use Aistglobal\Conversation\Http\Controllers\Message\RetrieveMessagesByConversationIDController;
 
 Route::group(['prefix' => 'api'], function () {
 

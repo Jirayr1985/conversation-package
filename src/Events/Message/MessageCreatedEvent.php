@@ -1,12 +1,12 @@
 <?php
 
-namespace Laravel\Conversation\Events\Message;
+namespace Aistglobal\Conversation\Events\Message;
 
 use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;
-use Laravel\Conversation\Models\Message;
-use Laravel\Conversation\Repositories\Conversation\EloquentConversationRepository;
+use Aistglobal\Conversation\Models\Message;
+use Aistglobal\Conversation\Repositories\Conversation\EloquentConversationRepository;
 
 class MessageCreatedEvent implements ShouldBroadcast
 {

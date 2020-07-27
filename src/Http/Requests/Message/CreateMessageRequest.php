@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Conversation\Http\Requests\Message;
+namespace Aistglobal\Conversation\Http\Requests\Message;
 
 use Illuminate\Foundation\Http\FormRequest;
 

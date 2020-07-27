@@ -1,12 +1,12 @@
 <?php
 
-namespace Laravel\Conversation\Http\Controllers\Conversation;
+namespace Aistglobal\Conversation\Http\Controllers\Conversation;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
-use Laravel\Conversation\Http\Resources\ConversationResource;
-use Laravel\Conversation\Repositories\Conversation\ConversationRepository;
+use Aistglobal\Conversation\Http\Resources\ConversationResource;
+use Aistglobal\Conversation\Repositories\Conversation\ConversationRepository;
 
 
 class RetrieveUserConversationsController extends Controller

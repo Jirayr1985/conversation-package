@@ -1,12 +1,12 @@
 <?php
 
-namespace Laravel\Conversation\Http\Controllers\Message;
+namespace Aistglobal\Conversation\Http\Controllers\Message;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
-use Laravel\Conversation\Http\Resources\MessageResource;
-use Laravel\Conversation\Repositories\Message\MessageRepository;
+use Aistglobal\Conversation\Http\Resources\MessageResource;
+use Aistglobal\Conversation\Repositories\Message\MessageRepository;
 
 class RetrieveMessagesByConversationIDController extends Controller
 {

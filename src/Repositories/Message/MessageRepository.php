@@ -1,9 +1,9 @@
 <?php
 
-namespace Laravel\Conversation\Repositories\Message;
+namespace Aistglobal\Conversation\Repositories\Message;
 
 use Illuminate\Pagination\LengthAwarePaginator;
-use Laravel\Conversation\Models\Message;
+use Aistglobal\Conversation\Models\Message;
 
 interface MessageRepository
 {

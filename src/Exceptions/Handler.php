@@ -1,14 +1,14 @@
 <?php
 
-namespace Laravel\Conversation\Exceptions;
+namespace Aistglobal\Conversation\Exceptions;
 
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 use Illuminate\Validation\ValidationException;
-use Laravel\Conversation\Exceptions\API\APIException;
-use Laravel\Conversation\Exceptions\API\NotFoundAPIException;
-use Laravel\Conversation\Exceptions\API\ValidationAPIException;
-use Laravel\Conversation\Exceptions\Repository\ResourceNotFoundException;
+use Aistglobal\Conversation\Exceptions\API\APIException;
+use Aistglobal\Conversation\Exceptions\API\NotFoundAPIException;
+use Aistglobal\Conversation\Exceptions\API\ValidationAPIException;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
+use Symfony\Component\Routing\Exception\ResourceNotFoundException;
 use Throwable;
 
 class Handler extends ExceptionHandler

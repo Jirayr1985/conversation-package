@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Laravel\Conversation\Http\Resources;
+namespace Aistglobal\Conversation\Http\Resources;
 
 
 use Illuminate\Http\Resources\Json\JsonResource;

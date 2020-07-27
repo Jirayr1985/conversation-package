@@ -1,14 +1,14 @@
 <?php
 
-namespace Laravel\Conversation;
+namespace Aistglobal\Conversation;
 
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Illuminate\Support\ServiceProvider;
-use Laravel\Conversation\Exceptions\Handler;
-use Laravel\Conversation\Repositories\Conversation\ConversationRepository;
-use Laravel\Conversation\Repositories\Conversation\EloquentConversationRepository;
-use Laravel\Conversation\Repositories\Message\EloquentMessageRepository;
-use Laravel\Conversation\Repositories\Message\MessageRepository;
+use Aistglobal\Conversation\Exceptions\Handler;
+use Aistglobal\Conversation\Repositories\Conversation\ConversationRepository;
+use Aistglobal\Conversation\Repositories\Conversation\EloquentConversationRepository;
+use Aistglobal\Conversation\Repositories\Message\EloquentMessageRepository;
+use Aistglobal\Conversation\Repositories\Message\MessageRepository;
 
 class ConversationServiceProvider extends ServiceProvider
 {

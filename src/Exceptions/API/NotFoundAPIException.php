@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Conversation\Exceptions\API;
+namespace Aistglobal\Conversation\Exceptions\API;
 
 class NotFoundAPIException extends APIException
 {
